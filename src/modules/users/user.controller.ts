@@ -1,5 +1,3 @@
-/** Author: @trungquandev (TrungQuanDev - Một Lập Trình Viên) - https://youtube.com/@trungquandev */
-
 import { Request, Response } from 'express'
 
 import { UserService } from '~/modules/users/user.service'
