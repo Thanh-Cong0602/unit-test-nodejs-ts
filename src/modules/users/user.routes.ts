@@ -1,5 +1,3 @@
-/** Author: @trungquandev (TrungQuanDev - Một Lập Trình Viên) - https://youtube.com/@trungquandev */
-
 import { Router } from 'express'
 
 import { asyncHandler } from '~/core/asyncHandler'
