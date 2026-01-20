@@ -1,5 +1,3 @@
-/** Author: @trungquandev (TrungQuanDev - Một Lập Trình Viên) - https://youtube.com/@trungquandev */
-
 import cookieParser from 'cookie-parser'
 import express from 'express'
 import helmet from 'helmet'
@@ -16,6 +14,7 @@ export const createApp = () => {
 
   app.disable('etag')
 
+  // Xử lý no-cache cho các request API
   app.use((req, res, next) => {
     res.setHeader('Cache-Control', 'no-store, no-cache, must-revalidate')
     res.setHeader('Pragma', 'no-cache')
@@ -28,7 +27,7 @@ export const createApp = () => {
   app.use(express.json())
   app.use(cookieParser())
   app.use(morgan('dev')) // dev preset: Ngắn gọn, có màu, phù hợp môi trường dev
-  
+
   app.use('/api', routes)
 
   // health
