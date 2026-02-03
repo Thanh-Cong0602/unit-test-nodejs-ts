@@ -1,5 +1,3 @@
-/** Author: @trungquandev (TrungQuanDev - Một Lập Trình Viên) - https://youtube.com/@trungquandev */
-
 import { z } from 'zod'
 
 import { ZodEmptyObject } from '~/core/validate/validateRequest'

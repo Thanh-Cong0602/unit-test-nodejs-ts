@@ -1,4 +1,3 @@
-/** Author: @trungquandev (TrungQuanDev - Một Lập Trình Viên) - https://youtube.com/@trungquandev */
 import { StatusCodes } from 'http-status-codes'
 
 export class ApiError extends Error {

@@ -1,4 +1,3 @@
-/** Author: @trungquandev (TrungQuanDev - Một Lập Trình Viên) - https://youtube.com/@trungquandev */
 import bcrypt from 'bcryptjs'
 
 const SALT_ROUNDS = 12

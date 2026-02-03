@@ -1,11 +1,9 @@
-/** Author: @trungquandev (TrungQuanDev - Một Lập Trình Viên) - https://youtube.com/@trungquandev */
-
-import { Request, Response, NextFunction } from 'express'
+import { NextFunction, Request, Response } from 'express'
 import { z, ZodObject } from 'zod'
 
 import { ApiError } from '~/core/http/ApiError'
 
-// Empty object chung dành cho khia báo optional & empty
+// Empty object chung dành cho khai báo optional & empty
 export const ZodEmptyObject = z.object({}).optional()
 
 /**
