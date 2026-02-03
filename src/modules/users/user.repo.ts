@@ -1,5 +1,3 @@
-/** Author: @trungquandev (TrungQuanDev - Một Lập Trình Viên) - https://youtube.com/@trungquandev */
-
 import { ObjectId } from 'mongodb'
 
 import { col } from '~/config/db'
